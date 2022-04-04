@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  height: 60px;
+  border-bottom: 1px solid rgb(194, 194, 194);
+}
+.companyname p {
+  font-size: 1.5rem;
+  margin: 0px 10px;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+.searchbox {
+  width: 300px;
+  height: 62px;
+
+  display: flex;
+  align-items: center;
+}
+
+.searchbox form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#search {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 12px;
+  padding: 6px;
+  font-size: 1.1rem;
+  background: rgb(221, 221, 221);
+  text-transform: capitalize;
+}
+.submit {
+  border: none;
+  font-size: 1.2rem;
+  margin: 0px 3px;
+  padding: 4px;
+  border-radius: 12px;
+  cursor: pointer;
+  background: rgb(119, 18, 85);
+  color: beige;
+}
+
+.header .options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  max-width: 200px;
+}
+.header .options svg {
+  height: auto;
+  width: 26px;
+  margin: 0px 10px;
+}
+.header .options .userbox svg {
+  width: 21px;
+}
+/* ----------------------------------------------- */
+.content {
+  display: flex;
+}
+.sidebox {
+  height: 90vh;
+  border-right: 1px solid rgb(146, 146, 146);
+}
+
+.title {
+  background: rgb(68, 68, 68);
+  width: 150px;
+  text-align: center;
+  padding: 7px 0px;
+}
+.title p {
+  color: antiquewhite;
+  letter-spacing: 1px;
+}
+.productclinebox {
+  text-align: center;
+}
+
+.cline {
+  cursor: pointer;
+  transition: 0.2s;
+  padding: 10px 0px;
+}
+.cline:hover {
+  background: rgb(206, 206, 206);
+}
+
+/* ---------------------------------------- */
+
+.productbox {
+  width: 100%;
+}
+.adsbox {
+  border-bottom: 2px solid rgb(128, 128, 128);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.productrows {
+  text-align: center;
+  border: 1px solid rgb(139, 139, 139);
+  margin: 3px 5px;
+  min-width: 150px;
+  max-width: 200px;
+  height: auto;
+}
+.favorite svg {
+  width: 15px;
+}
+.productpf {
+  display: flex;
+  background: rgb(255, 255, 255);
+  justify-content: space-between;
+}
+.productimage {
+  width: 100%;
+  width: 100%;
+}
+.productimage img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+.productname {
+  background: rgb(255, 255, 255);
+}
+
+.productcategoryname {
+  text-align: center;
+  padding: 10px 0px;
+}
+.productcategoryname p {
+  font-size: 1.3rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.productroom .productbox {
+  background: rgb(255, 255, 255);
+  padding: 10px 0px;
+  display: flex;
+  overflow: auto;
+}
